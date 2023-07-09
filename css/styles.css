@@ -112,6 +112,8 @@ card-set-item {
 
 .header {
   border-bottom: 1px solid var(--cornflower);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-container {
@@ -159,6 +161,10 @@ card-set-item {
 .header-item:hover,
 .header-item:focus {
   color: var(--ocean);
+}
+
+.active {
+  color: var(--icon-hover-color);
 }
 
 .header-item.active::after {
@@ -211,6 +217,8 @@ card-set-item {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+
+  max-width: 1440px;
 
   padding-top: 188px;
   padding-bottom: 188px;
@@ -435,7 +443,7 @@ card-set-item {
 }
 
 .employee {
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 
 .p-designer {
@@ -481,7 +489,7 @@ card-set-item {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 40px;
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
   margin-bottom: 72px;
@@ -573,6 +581,8 @@ card-set-item {
   letter-spacing: 0.32px;
   color: var(--white);
   margin-bottom: 16px;
+  font-weight: 500;
+  line-height: 1.5;
 }
 
 .network-link-footer:hover,
